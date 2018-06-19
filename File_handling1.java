@@ -9,7 +9,7 @@ public class File_handling1 {
 	public static void main(String[] args) throws IOException {
    File file=new File("C:\\Users\\user\\Desktop\\xyz.txt");
    FileReader in = null;
-   FileWriter out=new FileWriter("C:\\\\Users\\\\user\\\\Desktop\\\\a.txt");
+   FileWriter out=new FileWriter("C:\\\\Users\\\\user\\\\Desktop\\\\abc.txt");
    try {
 	   in=new FileReader(file);
 	   int ch;
